@@ -1,0 +1,198 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url(../img/clouds.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-size: 20px;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    background: url(../img/news-main.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 20px;
+}
+.news {
+    font-size: 8rem;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    letter-spacing: 25px;
+    color: #98fb98;
+    text-shadow: #c0c0c0 5px 5px 7px, #013f3f 5px 5px 7px;
+}
+nav {
+    padding-top: 20px;
+    padding-bottom: 150px;
+    text-align: center;
+}
+nav .anchor-news {
+    margin-bottom: 0px;
+}
+nav .anchor-news > a {
+    color: #a89ba4;
+    padding: 0 60px;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-bottom: 150px;
+}
+.anchor-news > a {
+    border: #ffa500 solid 2px;
+    width: 50px;
+    border-radius: 10px;
+    margin: 0 15px;
+}
+.anchor-news > a:nth-of-type(1) {
+    background: url(../img/london-news.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.anchor-news > a:nth-of-type(1):hover {
+    background: url(../img/central-park.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.anchor-news > a:nth-of-type(2) {
+    background: url(../img/the-red-square.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.anchor-news > a:nth-of-type(2):hover {
+    background: url(../img/st-petersburg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.anchor-news > a:nth-of-type(3) {
+    background: url(../img/no-money.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.anchor-news > a:nth-of-type(3):hover {
+    background: url(../img/money.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.anchor-news > a:nth-of-type(4) {
+    background: url(../img/postit.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.anchor-news > a:nth-of-type(4):hover {
+    background: url(../img/devops.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.anchor-news > a:nth-of-type(5) {
+    background: url(../img/child.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.anchor-news > a:nth-of-type(5):hover {
+    background: url(../img/tennis.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.newspaper {
+    padding: 20px 0;
+}
+article {
+    width: 800px;
+    margin: 0 auto;
+    padding: 6px 15px;
+    border-bottom: 5px solid #000;
+}
+article a {
+    text-decoration: none;
+    color: #2f4f4f;
+    font-size: 25px;
+}
+article a:hover {
+    color: #b22222;
+}
+article h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 5px;
+}
+.newspaper-world,
+.newspaper-russia,
+.newspaper-economic,
+.newspaper-it,
+.sport-news {
+    color: #020101;
+    margin-bottom: 5px;
+}
+article img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+footer {
+    padding-top: 20px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+footer .links {
+    margin-bottom: 50px;
+}
+footer .links > a {
+    color: #0f0c0c;
+    padding: 0 55px;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+}
+.copiright {
+    font-style: italic;
+    font-family: serif;
+    font-size: 15px;
+}
+.bottom-top {
+    display: block;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    color: #050e16;
+    background-color: #ada3a3;
+    width: 70px;
+    height: 30px;
+    border-radius: 15px;
+    padding: 12px 10px 2px;
+}
+.bottom-top:hover {
+    color: #256454b3;
+}
+.before-new::before {
+    content: "New!";
+    color: #ff0000;
+    font-size: 25px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    margin-right: 10px;
+    text-decoration: underline #ff0000;
+}
+article:nth-child(2n) {
+    background: #9ab5b6;
+}
